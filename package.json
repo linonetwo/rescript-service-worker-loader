@@ -1,0 +1,45 @@
+{
+  "name": "rescript-service-worker-loader",
+  "version": "1.0.0",
+  "description": "Enable service-worker-loader for your create-react-app project.",
+  "source": "src/index.js",
+  "module": "dist/rescript-service-worker-loader.mjs",
+  "main": "dist/rescript-service-worker-loader.js",
+  "unpkg": "dist/rescript-service-worker-loader.umd.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "@rescripts/utilities": "0.0.5",
+    "react-dev-utils": "^9.0.1",
+    "serviceworker-webpack-plugin": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react-dev-utils": "^9.0.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linonetwo/rescript-service-worker-loader.git"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "create-react-app",
+    "eject",
+    "web-worker",
+    "cra",
+    "rewired",
+    "worker"
+  ],
+  "author": "linonetwo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linonetwo/rescript-service-worker-loader/issues"
+  },
+  "homepage": "https://github.com/linonetwo/rescript-service-worker-loader#readme"
+}
