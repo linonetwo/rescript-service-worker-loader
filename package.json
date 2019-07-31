@@ -1,6 +1,6 @@
 {
   "name": "rescript-service-worker-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable service-worker-loader for your create-react-app project.",
   "source": "src/index.js",
   "module": "dist/rescript-service-worker-loader.mjs",
