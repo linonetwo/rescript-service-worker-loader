@@ -1,6 +1,6 @@
 {
   "name": "rescript-service-worker-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Enable service-worker-loader for your create-react-app project.",
   "source": "src/index.js",
   "module": "dist/rescript-service-worker-loader.mjs",
@@ -12,12 +12,12 @@
     "dev": "microbundle watch"
   },
   "dependencies": {
-    "@rescripts/utilities": "0.0.5",
-    "react-dev-utils": "^9.0.1",
+    "@rescripts/utilities": "0.0.6",
+    "react-dev-utils": "^10.0.0",
     "serviceworker-webpack-plugin": "^1.0.1"
   },
   "peerDependencies": {
-    "react-dev-utils": "^9.0.1"
+    "react-dev-utils": "^10.0.0"
   },
   "devDependencies": {
     "microbundle": "^0.11.0"
